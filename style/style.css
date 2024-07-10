@@ -248,13 +248,15 @@ body {
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 }
+
 .video {
     width: 1076px;
     height: 550px;
 }
+
 .my-terget {
     width: 1140px;
-    height: 460px;
+    height: 520px;
     margin: 0 auto;
     margin-top: 151px;
 }
@@ -263,7 +265,7 @@ body {
 .css,
 .javascript {
     width: 364px;
-    height: 299px;
+    height: 370px;
     padding: 40px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
@@ -328,9 +330,97 @@ body {
 
     background: rgba(255, 76, 30, 0.05);
 }
-.next{
+
+.next {
     width: 1140px;
-    height: 866px;
-    border: 2px solid red;
+    height: 929px;
+    /* border: 2px solid red; */
     margin: 0 auto;
+}
+
+.next-1 {
+    text-align: center;
+    margin-top: 111px;
+}
+
+.next-hea {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0;
+}
+
+.next-p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 144px;
+}
+
+.next-block {
+    /* border: 2px solid red; */
+    width: 1140px;
+    height: 219px;
+    padding: 40px;
+    display: flex;
+    gap: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+    margin: 24px 0;
+}
+
+.block-1 {
+
+    /* border: 2px solid red; */
+
+}
+
+.next-h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0;
+}
+
+.next-p-1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0;
+}
+
+.next-bu-1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    margin: 20px 0;
+    border: none;
+}
+
+.next-img-1 {
+    margin: 27px 0;
 }

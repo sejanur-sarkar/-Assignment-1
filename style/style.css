@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    font-family: "Azeret Mono", monospace;
+}
+
 .azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -244,23 +248,20 @@
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 }
-
 .video {
     width: 1076px;
     height: 550px;
 }
-
 .my-terget {
     width: 1140px;
     height: 460px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 151px;
 }
 
-.tetget-centet, .css, .javascript {
-
-    border: 2px solid red;
+.html,
+.css,
+.javascript {
     width: 364px;
     height: 299px;
     padding: 40px;
@@ -273,4 +274,63 @@
     flex-direction: row;
     gap: 24px;
     margin-top: 48px;
+}
+
+.terget-hading {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+.terget-peara {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.terget-button {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    border: none;
+    margin-top: 24px;
+}
+
+.javascript {
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.css {
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.html {
+    border-radius: 16px;
+
+    background: rgba(255, 76, 30, 0.05);
+}
+.next{
+    width: 1140px;
+    height: 866px;
+    border: 2px solid red;
+    margin: 0 auto;
 }

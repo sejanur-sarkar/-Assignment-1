@@ -1,17 +1,14 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap'); */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: "Azeret Mono", monospace;
-}
-
 .azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    font-style: normal;
+    font-style: normal
 }
 
 /* bener  */
@@ -311,6 +308,7 @@ body {
     text-decoration-line: underline;
     border: none;
     margin-top: 24px;
+    background: none;
 }
 
 .javascript {
@@ -419,8 +417,115 @@ body {
     text-decoration-line: underline;
     margin: 20px 0;
     border: none;
+    background: none;
 }
 
 .next-img-1 {
     margin: 27px 0;
+}
+
+.support {
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    padding: 64px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/handshake.jpg");
+    background-size: 100%;
+    background-position: 100%;
+}
+
+.sup-hea {
+    text-align: center;
+}
+
+.sup-heading {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.sup-p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.sup-messeg {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 19px 20px 19px 20px;
+    gap: 15px;
+   
+}
+.sup-help {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    text-align: center;
+    padding: 19px 20px 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    
+    background: rgb(255, 255, 255);
+    width: 548px;
+    height: 57px;
+    margin-left: 180px;
+    
+
+}
+.sup-but{
+    width: 120px;
+height: 58px;
+padding: 17px 20px 17px 20px;
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+}
+
+.footer {
+    width: 1440px;
+    height: 100px;
+    padding: 32px 150px 32px 150px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    gap: 526px;
+    margin: 0 auto;
+    margin-top: 117px;
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-text {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.footer-app {
+    text-align: right;
+
+}
+
+.imge-1 {
+    margin-right: 7px;
 }

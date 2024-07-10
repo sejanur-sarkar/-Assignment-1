@@ -212,7 +212,8 @@
     margin: 0 auto;
 }
 
-.inspira-title {
+.inspira-title,
+.terget-title {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
@@ -222,7 +223,8 @@
     text-align: center;
 }
 
-.inspira-topik {
+.inspira-topik,
+.terget-peara {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -242,7 +244,33 @@
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 }
-.video{
+
+.video {
     width: 1076px;
     height: 550px;
+}
+
+.my-terget {
+    width: 1140px;
+    height: 460px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 151px;
+}
+
+.tetget-centet, .css, .javascript {
+
+    border: 2px solid red;
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.terget-h-c-j {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 48px;
 }

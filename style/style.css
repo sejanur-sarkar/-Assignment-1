@@ -69,7 +69,7 @@
 
 /* main */
 .main-farim {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 1140px;
     height: 1545px;
     margin: 0 auto;
@@ -125,7 +125,9 @@
     height: 217px;
 }
 
-.second-hading, .third-hading, .last-title{
+.second-hading,
+.third-hading,
+.last-title {
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 24px;
@@ -136,7 +138,9 @@
     margin-bottom: 16px;
 }
 
-.second-peara, .third-peara, .last-peara {
+.second-peara,
+.third-peara,
+.last-peara {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -147,7 +151,9 @@
 
 }
 
-.second-button, .third-button, .last-button {
+.second-button,
+.third-button,
+.last-button {
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
@@ -169,7 +175,7 @@
     margin-top: 48px;
     display: flex;
     border-radius: 16px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
     gap: 48px;
 }
@@ -178,14 +184,60 @@
     width: 223px;
     height: 208px;
 }
-.last-part{
+
+.last-part {
     width: 946px;
     height: 360px;
     padding: 48px;
     margin-top: 48px;
     display: flex;
     border-radius: 16px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
     gap: 133px;
+}
+
+.my-inspiration {
+    width: 1140px;
+    height: 775px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+
+.inspiration-title {
+    text-align: center;
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+}
+
+.inspira-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.inspira-topik {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.youtube {
+    width: 1140px;
+    height: 614px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
 }

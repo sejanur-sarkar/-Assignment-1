@@ -200,7 +200,7 @@
 .my-inspiration {
     width: 1140px;
     height: 775px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 88px;
 }
@@ -236,8 +236,13 @@
 .youtube {
     width: 1140px;
     height: 614px;
+    margin-top: 48px;
+    padding: 32px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-
+}
+.video{
+    width: 1076px;
+    height: 550px;
 }
